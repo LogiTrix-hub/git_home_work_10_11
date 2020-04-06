@@ -1,0 +1,41 @@
+/* BURGER-MENU */
+ 
+ul.show {
+    background: #fff;
+    width: 100%;
+    position: absolute;
+    left: 0;
+    top: 100%;
+    z-index: 10;
+}
+
+ul.show li {
+    display: block;
+    float: none;
+    text-align: center;
+    margin-right: 0;
+}
+
+ul.show li:last-child {
+    border-bottom: 1px solid #89898b;
+}
+
+ul.show li a {
+    display: inline-block;
+    border: none;
+    font-size: 20px;
+    padding: 20px 0;
+    width: 100%;
+}
+
+ul.show li a:hover {
+    border: none;
+    background: #ffe600;
+}
+
+@media(min-width: 899px) {
+    ul.show {
+        display: none;
+    }
+}
+
